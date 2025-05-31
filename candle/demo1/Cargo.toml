@@ -1,0 +1,13 @@
+[package]
+name = "demo1"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+candle-core = "0.9.1"
+candle-transformers = "0.9.1"
+candle-nn = "0.9.1"
+candle-flash-attn = "0.9.1"
+candle-examples = "0.9.1"  # 含 whisper 模型加载等工具
+anyhow = "1.0"
+symphonia = { version = "0.5", features = ["aac", "mp3"] } # 音频解码支持
